@@ -1,0 +1,50 @@
+.xp-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.xp {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: var(--space-5);
+  padding-block: var(--space-6);
+  border-bottom: 1px solid var(--line);
+}
+
+.xp-period {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  padding-top: 0.2rem;
+}
+
+.xp-body {
+  display: grid;
+  gap: var(--space-1);
+  max-width: 62ch;
+}
+
+.xp-role {
+  font-size: var(--fs-lg);
+}
+
+.xp-org {
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+}
+
+.xp-desc {
+  margin-top: var(--space-2);
+}
+
+.xp-skills {
+  margin-top: var(--space-3);
+}
+
+@media (max-width: 640px) {
+  .xp {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+}
