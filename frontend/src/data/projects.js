@@ -35,19 +35,19 @@ export const projects = [
     image: "/projetos/defend-the-castle.gif",
   },
   {
-    id: "chargermap",
-    name: "ChargerMap",
+    id: "chargermaps",
+    name: "ChargerMaps",
     period: "2026/1",
     context: {
-      pt: "Trabalho Interdisciplinar I",
-      en: "Interdisciplinary Project I",
+      pt: "Trabalho Interdisciplinar I, equipe de 6 integrantes",
+      en: "Interdisciplinary Project I, team of 6",
     },
     description: {
-      pt: "Buscador de pontos de recarga para carros elétricos. Fiquei com o módulo de favoritos, corrigi bugs de tipos de dados e cuidei do fluxo de branches no Git, além da documentação do projeto.",
-      en: "A finder for electric vehicle charging stations. I owned the favorites module, fixed data type bugs and handled the Git branch workflow, plus the project documentation.",
+      pt: "Aplicação para motoristas de carros elétricos encontrarem pontos de recarga em um mapa interativo, planejarem viagens, simularem o tempo de recarga e guardarem favoritos e histórico. Fiquei com o módulo de favoritos (salvar, buscar, filtrar e ver detalhes dos pontos por usuário), corrigi bugs de tipos de dados e cuidei do fluxo de branches no Git.",
+      en: "An app for electric vehicle drivers to find charging stations on an interactive map, plan trips, simulate charging time and keep favorites and history. I built the favorites module (save, search, filter and view station details per user), fixed data type bugs and handled the Git branch workflow.",
     },
-    tech: ["HTML", "CSS", "JavaScript", "JSON Server"],
-    repo: null, // TODO: link do repositório
+    tech: ["HTML", "CSS", "JavaScript", "JSON Server", "Leaflet"],
+    repo: "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0427200-ideal-2",
     image: null, // TODO: print ou GIF
   },
 ];

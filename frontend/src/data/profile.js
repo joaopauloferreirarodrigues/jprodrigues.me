@@ -3,8 +3,8 @@
 export const profile = {
   name: "João Paulo Ferreira Rodrigues",
   shortName: "João Paulo",
-  // Foto: coloque o arquivo em public/images/foto.jpg e troque null pelo caminho.
-  photo: null, // TODO: "/images/foto.jpg"
+  // Foto de perfil (arquivo em public/images/)
+  photo: "/images/foto.jpg",
   stack: ["HTML", "CSS", "JavaScript", "Python", "Java"],
   links: {
     email: "jpaulo.rodrigues04@gmail.com",
