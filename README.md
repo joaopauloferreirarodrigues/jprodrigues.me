@@ -67,7 +67,7 @@ Este site foi desenvolvido no **Laboratório 01** da disciplina **Desenvolviment
 - 👤 **Sobre mim:** apresentação em português e inglês, trajetória em formato de log, tecnologias e outras competências.
 - 📂 **Projetos:** linha do tempo do mais antigo ao mais recente, com nome, descrição, tecnologias, link do GitHub e GIF do projeto em funcionamento.
 - 🏢 **Experiências:** empresa, cargo, período, descrição e competências.
-- 📨 **Contato:** ícones clicáveis (e-mail, GitHub e outros) e formulário com nome, e-mail e mensagem, validado no navegador e no servidor, que envia e-mail pela API Spring Boot.
+- 📨 **Contato:** ícones clicáveis (e-mail, LinkedIn e GitHub) e formulário com nome, e-mail e mensagem, validado no navegador e no servidor, que envia e-mail pela API Spring Boot.
 - 🌐 **Internacionalização (i18n):** português e inglês, com a escolha salva para a próxima visita.
 - 📱 **Design responsivo:** layout adaptado para celular, tablet e desktop.
 - 🛡️ **Proteções no formulário:** limite de mensagens por visitante e por dia, campo isca contra robôs, CORS restrito ao domínio do site e chave do serviço de e-mail guardada só no servidor.
@@ -394,9 +394,9 @@ mvn test
 
 ## 👤 Autor
 
-| Nome | GitHub | E-mail |
-| --- | --- | --- |
-| João Paulo Ferreira Rodrigues | [@joaopauloferreirarodrigues](https://github.com/joaopauloferreirarodrigues) | [jpaulo.rodrigues04@gmail.com](mailto:jpaulo.rodrigues04@gmail.com) |
+| Nome | GitHub | LinkedIn | E-mail |
+| --- | --- | --- | --- |
+| João Paulo Ferreira Rodrigues | [@joaopauloferreirarodrigues](https://github.com/joaopauloferreirarodrigues) | [joaopauloferreirarodrigues](https://www.linkedin.com/in/joaopauloferreirarodrigues) | [jpaulo.rodrigues04@gmail.com](mailto:jpaulo.rodrigues04@gmail.com) |
 
 ---
 

@@ -9,7 +9,7 @@ export const profile = {
   links: {
     email: "jpaulo.rodrigues04@gmail.com",
     whatsapp: null, // TODO: número no formato 5531999999999 (ou deixe null para não exibir)
-    linkedin: null, // TODO: URL do LinkedIn
+    linkedin: "https://www.linkedin.com/in/joaopauloferreirarodrigues",
     github: "https://github.com/joaopauloferreirarodrigues",
   },
   repo: "https://github.com/joaopauloferreirarodrigues/jprodrigues.me",
