@@ -1,0 +1,148 @@
+.timeline {
+  position: relative;
+  display: grid;
+  gap: var(--space-7);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* A linha vertical da timeline */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.6rem;
+  bottom: 0.6rem;
+  left: 0.3rem;
+  width: 1px;
+  background: var(--line-strong);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: var(--space-5);
+}
+
+.timeline-when {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-left: var(--space-6);
+  font-size: var(--fs-sm);
+  color: var(--text);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.timeline-status {
+  font-size: var(--fs-xs);
+  color: var(--status-run);
+}
+
+.project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-raised);
+  overflow: hidden;
+}
+
+.project-media {
+  border-right: 1px solid var(--line);
+  background: var(--bg);
+  min-height: 12rem;
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-noshot {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: 12rem;
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+  background: repeating-linear-gradient(
+    135deg,
+    transparent 0 10px,
+    rgba(92, 200, 215, 0.05) 10px 11px
+  );
+}
+
+.project-body {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  padding: var(--space-5);
+}
+
+.project-name {
+  font-size: var(--fs-lg);
+}
+
+.project-course {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin-top: calc(var(--space-2) * -1);
+}
+
+.project-desc {
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+}
+
+.project-repo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  justify-self: start;
+  margin-top: var(--space-2);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+}
+
+@media (max-width: 880px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .project-media {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    aspect-ratio: 16 / 10;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+
+  .timeline-when {
+    flex-direction: row;
+    align-items: baseline;
+    gap: var(--space-3);
+  }
+
+  .timeline-item .project {
+    margin-left: var(--space-6);
+  }
+}

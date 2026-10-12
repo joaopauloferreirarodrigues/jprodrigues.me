@@ -1,0 +1,45 @@
+/* Design tokens: cores, tipografia e espaçamentos usados no site inteiro. */
+:root {
+  color-scheme: dark;
+
+  /* Cores */
+  --bg: #0d1626;          /* fundo: azul-tinta, não preto */
+  --bg-raised: #132036;   /* superfícies (cards, formulário) */
+  --line: #24364f;        /* bordas e linha do tempo */
+  --line-strong: #34506f;
+  --text: #e4eaf2;
+  --text-muted: #9aabc2;
+  --accent: #5cc8d7;      /* ciano de sinal: links, foco, destaque */
+  --accent-ink: #062027;  /* texto sobre o acento */
+  --status-ok: #7fd1a0;   /* concluído */
+  --status-run: #e9b44c;  /* em andamento */
+  --status-goal: #5cc8d7; /* foco / objetivo */
+  --danger: #ff8f8f;
+
+  /* Tipografia */
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
+  --fs-display: clamp(2.5rem, 1.6rem + 4vw, 4.5rem);
+
+  /* Espaçamento */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 5rem;
+
+  --radius-sm: 4px;
+  --radius-md: 10px;
+
+  --content: 68rem;
+  --header-h: 4rem;
+}
