@@ -27,6 +27,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- Mail: envio por SMTP (Gmail), como no projeto SendEmail da disciplina -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
         <!-- Validation: @NotBlank, @Email, @Size nos dados do formulário -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

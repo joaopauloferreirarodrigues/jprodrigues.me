@@ -43,14 +43,14 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).body(Map.of("status", "too_many"));
     }
 
-    /** 503: a chave do Resend não foi configurada no servidor. */
+    /** 503: nenhuma chave de e-mail foi configurada no servidor. */
     @ExceptionHandler(EmailNotConfiguredException.class)
     public ResponseEntity<Map<String, Object>> handleNotConfigured(EmailNotConfiguredException e) {
-        log.error("Envio de e-mail não configurado: defina a variável RESEND_API_KEY");
+        log.error(e.getMessage());
         return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(Map.of("status", "not_configured"));
     }
 
-    /** 502: o Resend recusou ou não respondeu. */
+    /** 502: o provedor de e-mail recusou ou não respondeu. */
     @ExceptionHandler(EmailDeliveryException.class)
     public ResponseEntity<Map<String, Object>> handleDelivery(EmailDeliveryException e) {
         log.error("Falha no envio de e-mail", e);

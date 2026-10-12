@@ -41,7 +41,6 @@ public class ContactService {
 
         // 1) Notificação para mim. "Responder" vai direto para quem escreveu.
         emailSender.send(new OutgoingEmail(
-                properties.from(),
                 properties.receiver(),
                 email,
                 "Nova mensagem do portfólio: " + name,
@@ -53,22 +52,24 @@ public class ContactService {
                 Enviada em: %s
 
                 %s
-                """.formatted(name, email, sentAt, message)));
+                """.formatted(name, email, sentAt, message),
+                EmailTemplates.notification(name, email, sentAt, message)));
 
-        // 2) Confirmação para quem escreveu (opcional: exige domínio verificado no Resend).
+        // 2) Confirmação para quem escreveu, quando o provedor consegue entregar para qualquer endereço.
         //    Se falhar, a mensagem principal já foi entregue, então só registra no log.
-        if (properties.sendConfirmation()) {
+        if (properties.sendConfirmation() && emailSender.canSendToAnyone()) {
             try {
-                emailSender.send(confirmationFor(request, name, email, message));
+                emailSender.send(confirmationFor(request.isEnglish(), name, email, message, sentAt));
             } catch (EmailDeliveryException e) {
                 log.warn("Mensagem entregue, mas a confirmação para o remetente falhou", e);
             }
         }
     }
 
-    private OutgoingEmail confirmationFor(ContactRequest request, String name, String email, String message) {
-        if (request.isEnglish()) {
-            return new OutgoingEmail(properties.from(), email, properties.receiver(),
+    private OutgoingEmail confirmationFor(boolean english, String name, String email, String message, String sentAt) {
+        String html = EmailTemplates.confirmation(english, name, sentAt, message);
+        if (english) {
+            return new OutgoingEmail(email, properties.receiver(),
                     "I got your message",
                     """
                     Hi %s,
@@ -79,9 +80,10 @@ public class ContactService {
                     %s
 
                     João Paulo Ferreira Rodrigues
-                    """.formatted(name, message));
+                    """.formatted(name, message),
+                    html);
         }
-        return new OutgoingEmail(properties.from(), email, properties.receiver(),
+        return new OutgoingEmail(email, properties.receiver(),
                 "Recebi sua mensagem",
                 """
                 Olá, %s!
@@ -92,7 +94,8 @@ public class ContactService {
                 %s
 
                 João Paulo Ferreira Rodrigues
-                """.formatted(name, message));
+                """.formatted(name, message),
+                html);
     }
 
     /** Remove quebras de linha para o nome não "quebrar" o assunto do e-mail. */

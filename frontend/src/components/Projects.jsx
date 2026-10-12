@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa6";
 
 import { projects } from "../data/projects";
+import GitHubActivity from "./GitHubActivity";
 import { useLocalized } from "../hooks/useLocalized";
 import "./Projects.css";
 
@@ -73,6 +74,8 @@ export default function Projects() {
             </li>
           ))}
         </ol>
+
+        <GitHubActivity />
       </div>
     </section>
   );

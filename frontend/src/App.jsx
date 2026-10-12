@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import Header from "./components/Header";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Contact from "./components/Contact";
@@ -21,6 +22,7 @@ export default function App() {
       <Header active={active} />
       <main id="conteudo">
         <About />
+        <Skills />
         <Projects />
         <Experiences />
         <Contact />

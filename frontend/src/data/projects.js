@@ -15,8 +15,8 @@ export const projects = [
       en: "A gym workout platform with a featured carousel, a detail page for each workout, data served by a REST API built with JSON Server, a statistics page with charts, login and per-user favorites.",
     },
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "JSON Server", "Chart.js"],
-    repo: null, // TODO: link do repositório (GitHub Classroom)
-    image: null, // TODO: print ou GIF
+    repo: null, // repositório da turma (GitHub Classroom), não é público
+    image: "/projetos/getting-freak.jpg",
   },
   {
     id: "defend-the-castle",
@@ -48,6 +48,6 @@ export const projects = [
     },
     tech: ["HTML", "CSS", "JavaScript", "JSON Server", "Leaflet"],
     repo: "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0427200-ideal-2",
-    image: null, // TODO: print ou GIF
+    image: "/projetos/chargermaps.jpg",
   },
 ];

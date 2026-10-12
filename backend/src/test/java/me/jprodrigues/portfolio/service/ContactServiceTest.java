@@ -19,10 +19,25 @@ class ContactServiceTest {
     /** Em vez de enviar, guarda os e-mails numa lista para o teste conferir. */
     private static class FakeEmailSender implements EmailSender {
         final List<OutgoingEmail> sent = new ArrayList<>();
+        private final boolean canSendToAnyone;
+
+        FakeEmailSender(boolean canSendToAnyone) {
+            this.canSendToAnyone = canSendToAnyone;
+        }
 
         @Override
         public void send(OutgoingEmail email) {
             sent.add(email);
+        }
+
+        @Override
+        public String providerName() {
+            return "fake";
+        }
+
+        @Override
+        public boolean canSendToAnyone() {
+            return canSendToAnyone;
         }
     }
 
@@ -39,14 +54,14 @@ class ContactServiceTest {
                 80);
     }
 
-    private ContactRequest request(String lang) {
-        return new ContactRequest("Maria\nSilva", "maria@exemplo.com", "Olá, gostei do seu portfólio!", null, lang);
+    private ContactRequest request(String message, String lang) {
+        return new ContactRequest("Maria\nSilva", "maria@exemplo.com", message, null, lang);
     }
 
     @Test
     void enviaNotificacaoComRespostaParaQuemEscreveu() {
-        FakeEmailSender sender = new FakeEmailSender();
-        new ContactService(sender, properties(false), clock).send(request("pt"));
+        FakeEmailSender sender = new FakeEmailSender(true);
+        new ContactService(sender, properties(false), clock).send(request("Olá, gostei do seu portfólio!", "pt"));
 
         assertThat(sender.sent).hasSize(1);
         OutgoingEmail email = sender.sent.get(0);
@@ -59,13 +74,32 @@ class ContactServiceTest {
     }
 
     @Test
-    void enviaConfirmacaoNoIdiomaDoSiteQuandoHabilitado() {
-        FakeEmailSender sender = new FakeEmailSender();
-        new ContactService(sender, properties(true), clock).send(request("en"));
+    void enviaConfirmacaoNoIdiomaDoSiteQuandoOProvedorPermite() {
+        FakeEmailSender sender = new FakeEmailSender(true);
+        new ContactService(sender, properties(true), clock).send(request("Hello, nice portfolio!", "en"));
 
         assertThat(sender.sent).hasSize(2);
         OutgoingEmail confirmation = sender.sent.get(1);
         assertThat(confirmation.to()).isEqualTo("maria@exemplo.com");
         assertThat(confirmation.subject()).isEqualTo("I got your message");
+    }
+
+    @Test
+    void naoEnviaConfirmacaoQuandoOProvedorSoEntregaParaODono() {
+        FakeEmailSender sender = new FakeEmailSender(false);
+        new ContactService(sender, properties(true), clock).send(request("Olá, gostei do seu portfólio!", "pt"));
+
+        assertThat(sender.sent).hasSize(1);
+    }
+
+    @Test
+    void escapaHtmlDigitadoNoFormulario() {
+        FakeEmailSender sender = new FakeEmailSender(true);
+        new ContactService(sender, properties(false), clock)
+                .send(request("<script>alert('x')</script> <a href=\"http://golpe\">clique</a>", "pt"));
+
+        String html = sender.sent.get(0).html();
+        assertThat(html).contains("&lt;script&gt;").contains("&lt;a href=&quot;http://golpe&quot;&gt;");
+        assertThat(html.contains("<script>")).isFalse();
     }
 }
