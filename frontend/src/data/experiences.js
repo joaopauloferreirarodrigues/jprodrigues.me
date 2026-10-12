@@ -2,22 +2,22 @@
 // Ordem: da mais recente para a mais antiga.
 export const experiences = [
   {
-    id: "montante",
-    org: "Montante Engenharia e Serviços",
-    url: null,
+    id: "shield-security",
+    org: "Shield Security",
+    url: null, // TODO: site da empresa (opcional)
     role: {
-      pt: "Analista financeiro",
-      en: "Financial analyst",
+      pt: "Assistente de GRC",
+      en: "GRC Assistant",
     },
-    start: { pt: "dez. 2022", en: "Dec 2022" },
+    start: { pt: "2026", en: "2026" }, // TODO: mês e ano de início
     current: true,
     description: {
-      pt: "Empresa de engenharia especializada em recuperação de áreas degradadas. Cuido do processamento e da conferência de pagamentos, salários e boletos, do controle diário do fluxo de caixa e de relatórios gerenciais em Excel. Faço lançamentos e conciliações no ERP Omie e opero os sistemas bancários da empresa.",
-      en: "Engineering company specialized in recovering degraded land. I process and verify payments, payroll and invoices, track daily cash flow and build management reports in Excel. I handle entries and reconciliations in the Omie ERP and operate the company's banking systems.",
+      pt: "Apoio em projetos de governança, riscos e compliance em segurança da informação: mapeamento de processos em BPMN e SIPOC, gestão de riscos de terceiros (TPRM) para fornecedores de tecnologia e análise de gaps nos controles de segurança de clientes, com a classificação dos riscos encontrados.",
+      en: "Support on governance, risk and compliance projects in information security: process mapping with BPMN and SIPOC, third-party risk management (TPRM) for technology suppliers and gap analysis of clients' security controls, including rating the risks found.",
     },
     skills: {
-      pt: ["Excel avançado", "ERP Omie", "Fluxo de caixa", "Conciliação bancária"],
-      en: ["Advanced Excel", "Omie ERP", "Cash flow", "Bank reconciliation"],
+      pt: ["Mapeamento de processos (BPMN)", "SIPOC", "Riscos de terceiros (TPRM)", "Análise de gaps"],
+      en: ["Process mapping (BPMN)", "SIPOC", "Third-party risk (TPRM)", "Gap analysis"],
     },
   },
 ];

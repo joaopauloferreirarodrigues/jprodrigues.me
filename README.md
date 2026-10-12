@@ -56,7 +56,7 @@ Este site foi desenvolvido no **Laboratório 01** da disciplina **Desenvolviment
 
 **Por que existe:** reunir em um só endereço quem eu sou, o que já construí e como falar comigo, em vez de espalhar essas informações entre GitHub, LinkedIn e currículo.
 
-**Qual problema resolve:** recrutadores, professores e colegas entendem minha trajetória (de Administração e da área financeira para Engenharia de Software, com foco em GRC) em poucos minutos, veem os projetos funcionando e entram em contato sem sair da página.
+**Qual problema resolve:** recrutadores, professores e colegas entendem minha trajetória (de Administração para GRC e Engenharia de Software) em poucos minutos, veem os projetos funcionando e entram em contato sem sair da página.
 
 **Identidade visual:** azul-tinta escuro com acento ciano e a família tipográfica IBM Plex (Sans para textos, Mono para dados), uma linguagem próxima de painéis de monitoramento e relatórios de auditoria. A trajetória aparece como um pequeno registro de status (`[concluído]`, `[atual]`, `[em curso]`, `[foco]`), em referência aos logs que fazem parte do dia a dia de segurança.
 
