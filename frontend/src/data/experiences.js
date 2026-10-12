@@ -20,4 +20,24 @@ export const experiences = [
       en: ["Process mapping (BPMN)", "SIPOC", "Third-party risk (TPRM)", "Gap analysis"],
     },
   },
+  {
+    id: "montante",
+    org: "Montante Engenharia e Serviços",
+    url: null,
+    role: {
+      pt: "Analista financeiro",
+      en: "Financial analyst",
+    },
+    start: { pt: "dez. 2022", en: "Dec 2022" },
+    end: { pt: "2026", en: "2026" },
+    current: false,
+    description: {
+      pt: "Empresa de engenharia especializada em recuperação de áreas degradadas. Cuidei do processamento e da conferência de pagamentos, salários e boletos, do controle diário do fluxo de caixa e de relatórios gerenciais em Excel, além de lançamentos e conciliações no ERP Omie.",
+      en: "Engineering company specialized in recovering degraded land. I processed and verified payments, payroll and invoices, tracked daily cash flow and built management reports in Excel, plus entries and reconciliations in the Omie ERP.",
+    },
+    skills: {
+      pt: ["Excel avançado", "ERP Omie", "Fluxo de caixa", "Conciliação bancária"],
+      en: ["Advanced Excel", "Omie ERP", "Cash flow", "Bank reconciliation"],
+    },
+  },
 ];
