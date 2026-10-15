@@ -25,6 +25,7 @@
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Protótipos (Wireframes)](#-protótipos-wireframes)
 - [Arquitetura](#-arquitetura)
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
@@ -45,7 +46,8 @@
 ## 🔗 Links Úteis
 
 - 🌐 **Site publicado (Vercel):** [jprodrigues.me](https://jprodrigues.me)
-- ⚙️ **API publicada (Render):** `https://jprodrigues-api.onrender.com` <!-- TODO: trocar pelo endereço gerado pelo Render -->
+- ⚙️ **API publicada (Render):** [jprodrigues-me.onrender.com](https://jprodrigues-me.onrender.com/api/health) (no plano gratuito ela "dorme"; a primeira chamada pode levar até 1 minuto)
+- 🎨 **Protótipos (wireframes):** [docs/wireframes](docs/wireframes)
 - 🐙 **Repositório:** [github.com/joaopauloferreirarodrigues/jprodrigues.me](https://github.com/joaopauloferreirarodrigues/jprodrigues.me)
 
 ---
@@ -124,6 +126,32 @@ Este site foi desenvolvido no **Laboratório 01** da disciplina **Desenvolviment
 - **E-mail:** Gmail por SMTP (no computador) e [Resend](https://resend.com), API de e-mail por HTTPS (no Render)
 - **Dados do GitHub:** GitHub REST API, por uma Vercel Function (`frontend/api/github.js`)
 - **Domínio:** `jprodrigues.me`, registrado gratuitamente na Namecheap pelo GitHub Student Developer Pack
+
+---
+
+## 🎨 Protótipos (Wireframes)
+
+Wireframes de média fidelidade feitos antes da implementação, em tons de cinza e sem conteúdo final: blocos cinza representam texto, e caixas com um "X" representam imagens. Eles definem a estrutura de cada seção no computador (1440 px) e no celular (390 px), e o site publicado segue esse mesmo layout.
+
+Os arquivos `.svg` em [`docs/wireframes`](docs/wireframes) podem ser arrastados para o **Figma**, onde viram camadas editáveis. Os `.png` são as mesmas telas, exportadas para este README.
+
+### Computador
+
+| Seção | Wireframe |
+| --- | --- |
+| **Cabeçalho + Sobre mim**: menu fixo com as seções e botão PT/EN; texto à esquerda; foto, trajetória e tecnologias à direita | ![Wireframe da seção Sobre mim no computador](docs/wireframes/desktop-01-sobre-mim.png) |
+| **Habilidades**: filtros por categoria, alternância Globo/Lista e globo 3D com os ícones | ![Wireframe da seção Habilidades no computador](docs/wireframes/desktop-02-habilidades.png) |
+| **Projetos**: linha do tempo do mais antigo ao mais recente (imagem/GIF, nome, descrição, tecnologias, link do GitHub) e painel de atividade no GitHub | ![Wireframe da seção Projetos no computador](docs/wireframes/desktop-03-projetos.png) |
+| **Experiências**: período, cargo, empresa, descrição e competências | ![Wireframe da seção Experiências no computador](docs/wireframes/desktop-04-experiencias.png) |
+| **Contato + rodapé**: canais clicáveis à esquerda e formulário (nome, e-mail, mensagem) à direita | ![Wireframe da seção Contato no computador](docs/wireframes/desktop-05-contato.png) |
+
+### Celular
+
+No celular tudo fica em uma coluna e o menu passa para uma segunda linha, com rolagem lateral.
+
+| Sobre mim | Projetos | Contato |
+| --- | --- | --- |
+| ![Wireframe da seção Sobre mim no celular](docs/wireframes/celular-01-sobre-mim.png) | ![Wireframe da seção Projetos no celular](docs/wireframes/celular-02-projetos.png) | ![Wireframe da seção Contato no celular](docs/wireframes/celular-03-contato.png) |
 
 ---
 
@@ -317,7 +345,8 @@ O Render usa o `backend/Dockerfile`, que compila o projeto com Maven e roda o `.
 ├── LICENSE                       # ⚖️ MIT
 ├── .gitignore
 ├── docs/
-│   └── screenshots/              # 🖼️ Capturas usadas neste README
+│   ├── screenshots/              # 🖼️ Capturas usadas neste README
+│   └── wireframes/               # 🎨 Protótipos (SVG para o Figma + PNG)
 │
 ├── backend/                      # 📁 API Spring Boot
 │   ├── Dockerfile                # 🐳 Build e execução no Render

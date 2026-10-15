@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="860" viewBox="0 0 1440 860">
+<rect x="0" y="0" width="1440" height="860" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="64" rx="0" fill="#F7F7F7"/>
+<line x1="0" y1="64" x2="1440" y2="64" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="176" y="22" width="20" height="20" rx="4" fill="#DADADA"/>
+<text x="206" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#2E2E2E" text-anchor="start">jprodrigues</text>
+<rect x="1180" y="16" width="84" height="32" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<rect x="1180" y="16" width="42" height="32" rx="4" fill="#4A4A4A"/>
+<text x="1201" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PT</text>
+<text x="1243" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="middle">EN</text>
+<text x="1100.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">Contato</text>
+<line x1="1100.8" y1="56" x2="1154" y2="56" stroke="#4A4A4A" stroke-width="2"/>
+<text x="981.5999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Experiências</text>
+<text x="892.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Projetos</text>
+<text x="781.1999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Habilidades</text>
+<text x="684.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Sobre mim</text>
+<text x="176" y="150" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#2E2E2E" text-anchor="start">Contato</text>
+<rect x="176" y="174" width="480" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="176" y="196" width="480" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="176" y="218" width="288.0" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="176" y="270" width="480" height="64" rx="10" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="194" y="291" width="22" height="22" rx="4" fill="#DADADA"/>
+<text x="232" y="298" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">E-mail</text>
+<rect x="232" y="308" width="240" height="8" rx="4" fill="#DADADA"/>
+<rect x="176" y="346" width="480" height="64" rx="10" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="194" y="367" width="22" height="22" rx="4" fill="#DADADA"/>
+<text x="232" y="374" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">LinkedIn</text>
+<rect x="232" y="384" width="240" height="8" rx="4" fill="#DADADA"/>
+<rect x="176" y="422" width="480" height="64" rx="10" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="194" y="443" width="22" height="22" rx="4" fill="#DADADA"/>
+<text x="232" y="450" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">GitHub</text>
+<rect x="232" y="460" width="240" height="8" rx="4" fill="#DADADA"/>
+<rect x="740" y="110" width="524" height="600" rx="10" fill="#F7F7F7" stroke="#D4D4D4" stroke-width="1"/>
+<text x="772" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">Nome</text>
+<rect x="772" y="162" width="460" height="48" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="772" y="244" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">E-mail</text>
+<rect x="772" y="256" width="460" height="48" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="772" y="338" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">Mensagem</text>
+<rect x="772" y="350" width="460" height="170" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<rect x="772" y="542" width="180" height="44" rx="4" fill="#4A4A4A"/>
+<text x="862.0" y="569.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Enviar mensagem</text>
+<text x="772" y="616" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Mensagem de retorno (enviado / erro / validação)</text>
+<line x1="0" y1="780" x2="1440" y2="780" stroke="#D4D4D4" stroke-width="1"/>
+<text x="176" y="822" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">© 2026 João Paulo Ferreira Rodrigues</text>
+<text x="1264" y="822" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="end">Feito com React e Spring Boot · Código-fonte</text>
+</svg>

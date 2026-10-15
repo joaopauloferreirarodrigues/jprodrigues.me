@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+<rect x="0" y="0" width="1440" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="64" rx="0" fill="#F7F7F7"/>
+<line x1="0" y1="64" x2="1440" y2="64" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="176" y="22" width="20" height="20" rx="4" fill="#DADADA"/>
+<text x="206" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#2E2E2E" text-anchor="start">jprodrigues</text>
+<rect x="1180" y="16" width="84" height="32" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<rect x="1180" y="16" width="42" height="32" rx="4" fill="#4A4A4A"/>
+<text x="1201" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PT</text>
+<text x="1243" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="middle">EN</text>
+<text x="1100.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Contato</text>
+<text x="981.5999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Experiências</text>
+<text x="892.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Projetos</text>
+<text x="781.1999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">Habilidades</text>
+<line x1="781.1999999999999" y1="56" x2="864.8" y2="56" stroke="#4A4A4A" stroke-width="2"/>
+<text x="684.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Sobre mim</text>
+<text x="176" y="150" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#2E2E2E" text-anchor="start">Habilidades</text>
+<rect x="176" y="174" width="504.0" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="176" y="222" width="100" height="36" rx="18" fill="#4A4A4A"/>
+<text x="226.0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Todas  16</text>
+<rect x="286" y="222" width="124" height="36" rx="18" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="348.0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#2E2E2E" text-anchor="middle">Front-end  6</text>
+<rect x="420" y="222" width="116" height="36" rx="18" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="478.0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#2E2E2E" text-anchor="middle">Back-end  4</text>
+<rect x="546" y="222" width="140" height="36" rx="18" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="616.0" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#2E2E2E" text-anchor="middle">Ferramentas  6</text>
+<rect x="1092" y="222" width="172" height="36" rx="8" fill="#F2F2F2"/>
+<rect x="1096" y="226" width="84" height="28" rx="6" fill="#4A4A4A"/>
+<text x="1138" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Globo</text>
+<text x="1222" y="245" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#2E2E2E" text-anchor="middle">Lista</text>
+<circle cx="720.0" cy="500" r="200" fill="#FAFAFA" stroke="#D4D4D4" stroke-width="1"/>
+<ellipse cx="720.0" cy="500" rx="200" ry="60" fill="none" stroke="#D4D4D4"/>
+<ellipse cx="720.0" cy="500" rx="200" ry="130" fill="none" stroke="#D4D4D4"/>
+<ellipse cx="720.0" cy="500" rx="200" ry="190" fill="none" stroke="#D4D4D4"/>
+<ellipse cx="720.0" cy="500" rx="70" ry="200" fill="none" stroke="#D4D4D4"/>
+<ellipse cx="720.0" cy="500" rx="140" ry="200" fill="none" stroke="#D4D4D4"/>
+<line x1="720.0" y1="300" x2="720.0" y2="700" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="786.1172018086065" cy="678.125" r="17.0" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="638.3243354824024" cy="654.375" r="18.968844100439235" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="732.0726750145313" cy="630.625" r="13.383004118653965" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="815.5668108506876" cy="606.875" r="20.28101217395114" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="551.7646047574257" cy="583.125" r="16.21621074429987" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="872.3024537623704" cy="559.375" r="14.451499279359881" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="671.5102154794836" cy="535.625" r="21.742657261826295" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="632.6421906114452" cy="511.875" r="12.570840959976334" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="898.1029860355386" cy="488.125" r="18.713218678731025" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="547.465578842989" cy="464.375" r="18.87244431384734" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="796.5576827404456" cy="440.625" r="12.698875156110452" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="771.0671550568186" cy="416.875" r="21.290553629745812" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="584.1174555810832" cy="393.125" r="14.925609842104125" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="854.7710170296419" cy="369.375" r="16.22206576207943" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="656.2505174918508" cy="345.625" r="19.38362994774776" fill="#DADADA" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="711.539398908731" cy="321.875" r="15.274377826247187" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<text x="720.0" y="506" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="middle">Globo 3D: ícones das tecnologias (arrastar para girar)</text>
+<text x="720.0" y="750" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="middle">Arraste para girar · clique num ícone para abrir a documentação</text>
+</svg>

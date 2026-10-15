@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720">
+<rect x="0" y="0" width="1440" height="720" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="64" rx="0" fill="#F7F7F7"/>
+<line x1="0" y1="64" x2="1440" y2="64" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="176" y="22" width="20" height="20" rx="4" fill="#DADADA"/>
+<text x="206" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#2E2E2E" text-anchor="start">jprodrigues</text>
+<rect x="1180" y="16" width="84" height="32" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<rect x="1180" y="16" width="42" height="32" rx="4" fill="#4A4A4A"/>
+<text x="1201" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PT</text>
+<text x="1243" y="37" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="middle">EN</text>
+<text x="1100.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Contato</text>
+<text x="981.5999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">Experiências</text>
+<line x1="981.5999999999999" y1="56" x2="1072.8" y2="56" stroke="#4A4A4A" stroke-width="2"/>
+<text x="892.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Projetos</text>
+<text x="781.1999999999999" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Habilidades</text>
+<text x="684.8" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#8A8A8A" text-anchor="start">Sobre mim</text>
+<text x="176" y="150" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#2E2E2E" text-anchor="start">Experiências</text>
+<rect x="176" y="174" width="504.0" height="10" rx="5.0" fill="#DADADA"/>
+<line x1="176" y1="226" x2="1264" y2="226" stroke="#D4D4D4" stroke-width="1"/>
+<text x="176" y="272" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">2026 – atual</text>
+<text x="346" y="276" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2E2E2E" text-anchor="start">Assistente de GRC</text>
+<text x="346" y="300" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Shield Security</text>
+<rect x="346" y="322" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="342" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="362" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="382" width="372.0" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="408" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="354" y="424" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="442.6" y="408" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="450.6" y="424" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="539.2" y="408" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="547.2" y="424" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="635.8000000000001" y="408" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="643.8000000000001" y="424" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<line x1="176" y1="446" x2="1264" y2="446" stroke="#D4D4D4" stroke-width="1"/>
+<text x="176" y="492" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">dez. 2022 – 2026</text>
+<text x="346" y="496" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2E2E2E" text-anchor="start">Analista financeiro</text>
+<text x="346" y="520" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Montante Engenharia e Serviços</text>
+<rect x="346" y="542" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="562" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="582" width="620" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="602" width="372.0" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="346" y="628" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="354" y="644" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="442.6" y="628" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="450.6" y="644" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="539.2" y="628" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="547.2" y="644" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<rect x="635.8000000000001" y="628" width="88.60000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="643.8000000000001" y="644" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Competência</text>
+<line x1="176" y1="666" x2="1264" y2="666" stroke="#D4D4D4" stroke-width="1"/>
+</svg>

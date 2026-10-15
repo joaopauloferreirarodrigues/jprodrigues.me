@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1420" viewBox="0 0 390 1420">
+<rect x="0" y="0" width="390" height="1420" fill="#FFFFFF"/>
+<rect x="0" y="0" width="390" height="96" rx="0" fill="#F7F7F7"/>
+<line x1="0" y1="96" x2="390" y2="96" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="16" y="18" width="20" height="20" rx="4" fill="#DADADA"/>
+<text x="44" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#2E2E2E" text-anchor="start">jprodrigues</text>
+<rect x="298" y="14" width="76" height="30" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<rect x="298" y="14" width="38" height="30" rx="4" fill="#4A4A4A"/>
+<text x="317" y="34" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PT</text>
+<text x="355" y="34" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#8A8A8A" text-anchor="middle">EN</text>
+<text x="16" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#2E2E2E" text-anchor="start">Sobre mim</text>
+<line x1="16" y1="90" x2="80.8" y2="90" stroke="#4A4A4A" stroke-width="2"/>
+<text x="102.8" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Habilidades</text>
+<text x="204.0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Projetos</text>
+<text x="283.6" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Experiências</text>
+<text x="392.0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Contato</text>
+<text x="374" y="78" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#8A8A8A" text-anchor="end">›</text>
+<text x="16" y="150" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" fill="#8A8A8A" text-anchor="start">Olá, eu sou</text>
+<text x="16" y="192" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#2E2E2E" text-anchor="start">João Paulo</text>
+<text x="16" y="234" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#2E2E2E" text-anchor="start">Ferreira Rodrigues</text>
+<text x="16" y="272" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#2E2E2E" text-anchor="start">Estudante de Engenharia de Software</text>
+<text x="16" y="294" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#2E2E2E" text-anchor="start">na PUC Minas, com foco em GRC em</text>
+<text x="16" y="316" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" fill="#2E2E2E" text-anchor="start">segurança da informação.</text>
+<rect x="16" y="344" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="366" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="388" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="410" width="214.79999999999998" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="444" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="466" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="488" width="358" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="510" width="179.0" height="10" rx="5.0" fill="#DADADA"/>
+<rect x="16" y="544" width="150" height="44" rx="4" fill="#4A4A4A"/>
+<text x="91.0" y="571.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Falar comigo</text>
+<rect x="178" y="544" width="140" height="44" rx="4" fill="#FFFFFF" stroke="#4A4A4A" stroke-width="1.5"/>
+<text x="248.0" y="571.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#4A4A4A" text-anchor="middle">Ver projetos</text>
+<rect x="16" y="616" width="240" height="290" rx="0" fill="#ECECEC" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="16" y1="616" x2="256" y2="906" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="256" y1="616" x2="16" y2="906" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="75.6" y="747.0" width="120.8" height="28" rx="4" fill="#FFFFFF"/>
+<text x="136.0" y="766.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="middle">Foto de perfil</text>
+<rect x="16" y="930" width="358" height="210" rx="10" fill="#F7F7F7" stroke="#D4D4D4" stroke-width="1"/>
+<text x="34" y="958" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#8A8A8A" text-anchor="start">Trajetória</text>
+<text x="34" y="989" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="start">[concluído]</text>
+<rect x="34" y="996" width="220" height="9" rx="4" fill="#DADADA"/>
+<text x="34" y="1027" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="start">[atual]</text>
+<rect x="34" y="1034" width="260" height="9" rx="4" fill="#DADADA"/>
+<text x="34" y="1065" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="start">[em curso]</text>
+<rect x="34" y="1072" width="220" height="9" rx="4" fill="#DADADA"/>
+<text x="34" y="1103" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#8A8A8A" text-anchor="start">[foco]</text>
+<rect x="34" y="1110" width="260" height="9" rx="4" fill="#DADADA"/>
+<text x="16" y="1172" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Tecnologias que uso</text>
+<rect x="16" y="1184" width="42.400000000000006" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="24" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">HTML</text>
+<rect x="66.4" y="1184" width="35.8" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="74.4" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">CSS</text>
+<rect x="110.2" y="1184" width="82.0" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="118.2" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">JavaScript</text>
+<rect x="200.2" y="1184" width="55.6" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="208.2" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Python</text>
+<rect x="263.8" y="1184" width="42.400000000000006" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="271.8" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Java</text>
+<text x="16" y="1240" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A8A8A" text-anchor="start">Outras competências</text>
+<rect x="16" y="1252" width="115.00000000000001" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="24" y="1268" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Inglês avançado</text>
+<rect x="139.0" y="1252" width="108.4" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="147.0" y="1268" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Excel avançado</text>
+<rect x="16" y="1284" width="167.8" height="24" rx="4" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+<text x="24" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#2E2E2E" text-anchor="start">Mapeamento de processos</text>
+</svg>
